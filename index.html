@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1 id="title">Survey Form</h1>
+<div id="form-outer">
+<p id="description">
+      Is There Any Extracurricular Activity That You Guys Want To Try In Clayton Heights Secondary?
+</p>
+<form id="survey-form" method="GET"
+ action="https://www.surreyschools.ca/school/clyhtz">
+  <div class="rowTab">
+    <div class="Labels">
+      <label class="label-name" for="name">* NAME:
+      </label>
+    </div>
+    <div class="rightTab">
+      <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter Your Name" required>
+    </div>
+  </div>
+  <div class="rowTab">
+    <div class="labels">
+      <label class="label-email" for="email">* E-MAIL:
+      </label>
+    </div>
+    <div class="rightTab">
+      <input autofocus type="text" name="email" id="email" class="input-field" placeholder="Enter Your Email" required>
+    </div>
+  </div>
+  <div class="rowTab">
+    <div class="labels">
+      <label class="label-age" for="age">* AGE:
+      </label>
+    </div>
+    <div class="rightTab">
+      <input autofocus type="text" name="age" id="number" min="0" max="150" class="input-field" placeholder="Enter Your Age" required>
+    </div>
+  </div>
+  <div class="rowTab">
+    <div class="labels">
+      <label for="currentposition">* What Grade Are You Currently Enrolled In?</label>  
+    </div>
+    <div class="rightTab">
+      <select id="dropdown" name="Currentposition" class="dropdown">
+        <option disabled value>Select an option</option>
+        <option value>8th</option>
+        <option value>9th</option>
+        <option value>10th</option>
+        <option value>11th</option>
+        <option value>12th</option>
+      </select>
+    </div>
+  </div>
+  <div class="rowTab">
+    <div class="labels">
+      <label for="studentsrating">* How Would You Rate 2017/18 Clayton Heights Secondary Extracurricular Activities?</label>
+    </div>
+    <div class="rightTab">
+      <ul style="list-style: none;">
+        <li class="checkbox"><label><input name="checkbox" value="1" type="checkbox" class="studentsrating ">Very Satisfied</label></li>
+        <li class="checkbox"><label><input name="checkbox" value="2" type="checkbox" class="studentsrating ">Somewhat Satisfied</label></li>
+        <li class="checkbox"><label><input name="checkbox" value="3" type="checkbox" class="studentsrating ">neutral</label></li>
+        <li class="checkbox"><label><input name="checkbox" value="4" type="checkbox" class="studentsrating ">Somewhat Dissatisfied</label></li>
+        <li class="checkbox"><label><input name="checkbox" value="5" type="checkbox" class="studentsrating ">Very Dissatisfied</label></li>
+      </ul>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label for="improvements">* Any Sports Clubs Or Activities That Needs To Be Created </label>
+      </div>
+      <div class="rightTab">
+      <ul style="list-style: none;">
+        <li class="radio"><input name="radio-buttons" value="1"  type="radio" class="userRatings" ><label>Economics Club</label></li>
+        <li class="radio"><input name="radio-buttons" value="1"  type="radio" class="userRatings" ><label>Poetry Club</label></li>
+        <li class="radio"><input name="radio-buttons" value="1"  type="radio" class="userRatings" ><label>Distributive Education Clubs of Canada</label></li>
+        <li class="radio"><input name="radio-buttons" value="1"  type="radio" class="userRatings" ><label>Graphic Design</label></li>
+        <li class="radio"><input name="radio-buttons" value="1"  type="radio" class="userRatings" ><label>Sculpture</label></li>
+        <li class="radio"><input name="radio-buttons" value="1"  type="radio" class="userRatings" ><label>Weaving</label></li>
+        <li class="radio"><input name="radio-buttons" value="1"  type="radio" class="userRatings" ><label>Student Diplomacy Corps</label></li>
+        <li class="radio"><input name="radio-buttons" value="1"  type="radio" class="userRatings" ><label>School Radio Station</label></li>
+        <li class="radio"><input name="radio-buttons" value="1"  type="radio" class="userRatings" ><label>Civil War Patrol</label></li>
+        <li class="radio"><input name="radio-buttons" value="1"  type="radio" class="userRatings" ><label>Choreography</label></li>
+        <li class="radio"><input name="radio-buttons" value="1"  type="radio" class="userRatings" ><label>Gamers Club</label></li>
+        <li class="radio"><input name="radio-buttons" value="1"  type="radio" class="userRatings" ><label>Entrepreneurship Club</label></li>
+        <li class="radio"><input name="radio-buttons" value="1"  type="radio" class="userRatings" ><label>Junior Statesmen of Canada</label></li>
+        <li class="radio"><input name="radio-buttons" value="1"  type="radio" class="userRatings" ><label>Table Tennis</label></li>
+        <li class="radio"><input name="radio-buttons" value="1"  type="radio" class="userRatings" ><label>Cycling</label></li>
+        <li class="radio"><input name="radio-buttons" value="1"  type="radio" class="userRatings" ><label>UNICEF High School Club</label></li>
+        </ul>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label for="comments">* Any Comments Or Suggestions?</label>
+      </div>
+       <div class="rightTab">
+         <textarea id="comments" class="input=field" style="height: 50px;" name="comments" placeholder="Enter Your Comments Here"</textarea>
+      </div>
+    </div>
+    <button id="submit" type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+
+</html>
+
